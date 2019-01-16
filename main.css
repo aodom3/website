@@ -2,16 +2,39 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  overflow: hidden;
+  border: 1.5px solid #e7e7e7;
+  background-color: #f3f3f3;
 }
 
 li {
-  float: right;
+  float: left;
+  font-size: 22px;
 }
 
 li a {
   display: block;
-  color: blue;
+  
+  color: grey;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+li a:hover {
+  color: #6eb1c5;
+}
+
+body {
+  background-color: #f9f9f9;
+}
+
+h1 {
+  color: #6eb1c5;
+  font-size: 2.5em;
+  font-family: 'Roboto', sans-serif;
+}
+
+.mainclass{
+  align-items: center;
 }
