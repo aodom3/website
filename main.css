@@ -38,3 +38,11 @@ h1 {
 .mainclass{
   align-items: center;
 }
+
+.bottombord{
+  background-color: #6eb1c5;
+}
+
+footer {
+  background-color: #f3f3f3;
+}
